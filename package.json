@@ -1,16 +1,12 @@
 {
-  "name": "prosemirror-markdown",
+  "name": "@timcchang/prosemirror-markdown",
   "version": "1.5.1",
   "description": "ProseMirror Markdown integration",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "license": "MIT",
   "maintainers": [
-    {
-      "name": "Marijn Haverbeke",
-      "email": "marijnh@gmail.com",
-      "web": "http://marijnhaverbeke.nl"
-    }
+    "Marijn Haverbeke <marijnh@gmail.com> (http://marijnhaverbeke.nl)"
   ],
   "repository": {
     "type": "git",
@@ -35,5 +31,13 @@
     "watch": "rollup -c -w",
     "prepare": "npm run build",
     "build_readme": "builddocs --name markdown --format markdown --main src/README.md src/*.js > README.md"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/prosemirror/prosemirror-markdown/issues"
+  },
+  "homepage": "https://github.com/prosemirror/prosemirror-markdown#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }

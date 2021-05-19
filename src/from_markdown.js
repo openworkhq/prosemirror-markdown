@@ -1,4 +1,4 @@
-import markdownit from "markdown-it"
+import markdownit from "markdown-it/dist/markdown-it"
 import {schema} from "./schema"
 import {Mark} from "prosemirror-model"
 
